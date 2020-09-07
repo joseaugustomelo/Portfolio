@@ -26,19 +26,7 @@ a:link{
     padding: 20px;
 }
 
-#menu{
-    text-align: right;
-    margin-top: 9px;
-}
 
-
-
-#menu a{
-    color: black;    
-    text-decoration: none;
-    padding: 20px;  
-    
-}
 
 
 #texto{
@@ -47,13 +35,6 @@ a:link{
     text-align: right;
 }
 
-#cinza{
-    width: 100%;
-    height: 500px;
-    background: #dedede;
-    margin-top: 300px; 
-    
-}
 
 #portfolio{    
     margin-top: 400px;
@@ -62,19 +43,6 @@ a:link{
     
 }
 
-
-#contato{
-    margin: 0;
-    text-align: center; /* centralizar o texto*/
-    padding: 25px;
-   
-}
-.container2{
-    width: 100%;
-    height: 535px;
-    background-image: url(img/rodaPe.jpg);
-    
-}
 
 #rodape{
     text-align: center;
@@ -90,18 +58,7 @@ i{
     
 }
 
-/**/
-#menu2{
-    text-align: right;
-    margin-top: 79px;
-           
-}
-#menu2 a{
-    color: black;    
-    text-decoration: none;
-    padding: 20px;  
-    
-}
+
 /* pagina sobre José */
 .sobre{
     font-size: 16px;    
@@ -156,58 +113,4 @@ i{
 		margin:5px 0;
 		display:none;
 	}
-
-
-
-/**/
-
-/*botao voltar para o topo - home */
-.smoothscroll-top {
-    position:fixed;
-    opacity:0;
-    visibility:hidden;
-    overflow:hidden;
-    text-align:center;
-    z-index:99;
-    background-color:#2ba6e1;
-    color:#fff;
-    width:47px;
-    height:44px;
-    line-height:44px;
-    right:25px;
-    bottom:-25px;
-    padding-top:2px;
-    border-radius:5px;
-    transition:all .5s ease-in-out;
-    transition-delay:.2s;
-}
-
-.smoothscroll-top:hover {
-    background-color:#3eb2ea;
-    color:#fff;
-    transition:all .2s ease-in-out;
-    transition-delay:0;
-}
-
-.smoothscroll-top.show {
-    visibility:visible;
-    cursor:pointer;
-    opacity:1;
-    bottom:25px;
-    }
-
-.smoothscroll-top i.fa {
-    line-height:inherit;
-}
-
-.smoothscroll-top.show {
-    visibility:visible;
-    cursor:pointer;
-    opacity:1;
-    bottom:25px;
-}
-
-.smoothscroll-top i.fa {
-    line-height:inherit;
-}
 
