@@ -1,0 +1,4 @@
+<link href="lightbox/css/lightbox.css" rel="stylesheet">
+    
+<script src="lightbox/js/jquery-1.11.0.min.js"></script>
+<script src="lightbox/js/lightbox.min.js"></script>

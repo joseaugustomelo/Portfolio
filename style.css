@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 35px;
+}
+a:link{
+    text-decoration: none;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+#topo{
+    width: 100%;
+    height: 60px;   
+           
+}
+
+#idioma{
+    text-align: right;
+    font-size: 12px;
+    padding: 20px;
+}
+
+
+
+
+#texto{
+    font-size: 30px;
+    margin-top: 80px;
+    text-align: right;
+}
+
+#cinza{
+    width: 100%;
+    height: 500px;
+    background: #dedede;
+    margin-top: 300px; 
+    
+}
+
+
+
+.container2{
+    width: 100%;
+    height: 535px;
+    background-image: url(img/rodaPe.jpg);
+    
+}
+
+#rodape{
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    padding: 20px 0;
+    font-size: 12px;
+     
+}
+
+i{
+    padding:5px;
+    
+}
+
+/**/
+#menu2{
+    text-align: right;
+    margin-top: 79px;
+           
+}
+#menu2 a{
+    color: black;    
+    text-decoration: none;
+    padding: 20px;  
+    
+}
+/* pagina sobre José */
+.sobre{
+    font-size: 16px;    
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* pagina sobre José*/
+.eu{
+    width: 500px;
+    margin: auto;
+    text-align: justify;
+}
+
+.jose{
+    width: 250px;
+    text-align: center;
+    
+}
+
+.nome{
+    margin-top: -25px;
+    text-align: center;
+}
+
+/* pagina sobre José - toggle */
+#toggle-view {
+	list-style:none;	
+	font-family:arial;
+	font-size:16px;
+	margin:10px;
+	padding:0;
+	width:518px;
+    margin: auto;
+}
+
+	#toggle-view li {
+		margin:10px;
+		border-bottom:1px solid #ccc;
+		position:relative;
+		cursor:pointer;
+	}
+	
+	#toggle-view h3 {
+		margin:0;
+		font-size:16px;
+	}
+
+	#toggle-view span {
+		position:absolute;
+		right:5px; top:0;
+		color:#ccc;
+		font-size:16px;
+	}
+	
+	#toggle-view .panel {
+		margin:5px 0;
+		display:none;
+	}
+

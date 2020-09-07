@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">   
+        
+        <link rel="shortcut icon" href="img/www-3.png">  
+        <!-- link do Google font -->
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">        
+        <!-- link do site Font Awesome(ícones rede social) -->
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <!-- Biblioteca jquery -->
+            <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <!-- fim da biblioteca -->
+        <!--Galeria de Fotos-->
+             <link href="lightbox/css/lightbox.css" rel="stylesheet">
+             <script src="lightbox/js/jquery-1.11.0.min.js"></script>
+             <script src="lightbox/js/lightbox.min.js"></script>
+        <!-- fim do Codigo da Galeria de fotos -->
+        
+        
+        <title>José Augusto Melo </title>
+    
+  <!-- Inicio do codigo JavaScript -->     
+    <script type="text/javascript">
+
+$(document).ready(function () {
+	
+	$('#toggle-view li').click(function () {
+
+		var text = $(this).children('div.panel');
+
+		if (text.is(':hidden')) {
+			text.slideDown('200');
+			$(this).children('span').html('-');		
+		} else {
+			text.slideUp('200');
+			$(this).children('span').html('+');		
+		}
+		
+	});
+
+});
+
+</script>
+<!-- fim do JavaScript -->       
+
+    </head>
+    <body>
+      <!-- header=> Cabecalho -->
+       <header id="topo">
+                 <div class="container">
+          <div id="idioma">
+            <a href="index.html">
+                 <img src="img/br.jpg" alt="">
+                <br>
+                  Port.
+              </a>  
+          </div>
+        
+           
+           
+<!--           
+           <div class="container">
+                     <nav id="menu2">
+                     <a href="ingles.html">Home</a>
+                     <a href="ingles.html">Portfolio</a>
+                     <a href="#">About</a>
+                     <a href="ingles.html">Contact</a>
+                </nav>
+           </div>
+-->
+       </header>
+
+       <!--parte inicial do site -->
+       <div class="container">
+
+          <section class="sobre">
+              <img class="jose"src="img/jose.gif" alt="" >
+              
+               <div class="nome">
+                        <p>José Augusto dos S. de Melo</p>
+                    </div>
+
+             <div class="eu">
+               Born in Rio de Janeiro - Brazil, graduated in <b>Graphic Design </b>by the Senac-Rio Technology College and in<b> Systems Analysis and Development
+                 </b> by Unicarioca University Center - Unicarioca, 
+                 postgraduate student at Cândido Mendes University - UCAM in <b> Object Oriented Development with Java.</b>
+                 <br>
+                <p>Since graduation and in the job market, there has always been important interpersonal relationship, organization, planning, dynamism, dynamism, persistence and determination.</p>
+              </div>
+          </section>
+           </div>
+           
+<div class="container">  
+           <ul id="toggle-view">
+	<li>
+		<h3>FORMATION</h3>
+		<span>+</span>
+		<div class="panel">
+		<p>postgraduate | Object Oriented Development with Java <br> September 2019 | studying<br>
+            Candido Mendes University - UCAM <br><br>
+            University graduate | System Analysis and Development <br> July/2018 | concluded<br>            
+            Carioca University Center - Unicarioca<br><br>
+            University graduate | Graphic design <br> July/2012 | concluded<br>
+            Faculdade de Tecnologia Senac-Rio</p>
+		</div>
+	</li>
+	<li>
+		<h3>COMPLEMENTARY COURSES</h3>
+		<span>+</span>
+		<div class="panel">
+			<p>Web Designer + PHP + Ajax + Mysql - Jun / 2018 - completed <br>
+               Center for Information Technology Organizations - Coti Informática. <br> <br>               
+                Print Media Designer - Oct / 2013 - concluded <br>
+               Instituto Infnet. <br> <br>               
+                Professional Web Design - Oct / 2008 - concluded <br>
+               Professional Training Center for Graphic Arts - Senai </p>
+		</div>
+	</li>
+	<li>
+		<h3>EXPERIENCE</h3>
+		<span>+</span>
+		<div class="panel">
+			<p>Acotel do Brasil - apr. 2015 to sea. 2017 <br>
+               Publication of content CS intern <br> <br>
+               Tide Development Networks - out. 2013 to Dec. 2013 <br>
+               Creation and preparation of material for printing. <br>               
+                Graphic Designer. <br> <br>
+               Jomar Hygiene and Conservation of Environments - sea. 2009 to March. 2013 <br>
+               Administrative </p>
+		    </div>
+	    </li>
+    </ul>
+</div> 
+   <div class="container">
+           <section class="sobre">
+               
+                <div class="seloDigital">
+                  <h3>Digital Badgel</h3>
+            <a href="https://www.youracclaim.com/users/joseaugustomelo">
+                     <img class="Acclaim "src="img/Acclaim.png" alt=""><br><br>
+                 </a>               
+              </div>
+               
+               
+             <div class="Certifcacao">
+               <h3>Certification</h3>
+                 
+                                 
+                 <a href="img/797175_SFC_Jos%C3%A9%20Augusto%20%20Dos%20Santos%20De%20Melo.jpg" data-lightbox="image-1" title="Scrum Fundamentals Certified (SFC)">
+                     <img src="img/file2.png" alt=""></a>  
+                 
+                 <a href="img/Certificate_page-0001.jpg" data-lightbox="image-1" title="Scrum Foundations Professional Certificate (SFPC)"><img src="img/file.png" alt=""></a>
+                 
+                 <a href="img/DevOps%20Essentials.jpg" data-lightbox="image-1" title="DevOps Essentials Professional Certificate -DEPC®">
+                     <img src="img/DEPC.png" alt=""></a> 
+                 
+              </div>
+       </section>
+    </div>
+    <!-- Roda pé da pagina -->
+           <footer id="rodape">                            
+           <p>Meet me on social media.</p>
+                 <a href="https://www.facebook.com/joseaugusto.zecao">
+                   <i class="fab fa-facebook-square fa-2x"></i>
+                 </a>
+                 <a href="https://www.instagram.com/jjoseaaugusto/">
+                     <i class="fab fa-instagram fa-2x"></i>
+                 </a> 
+                 <a href="https://www.linkedin.com/in/josé-augusto-melo-b786b3b4//">
+                     <i class="fab fa-linkedin fa-2x"></i>
+                 </a>
+               <a href="https://www.behance.net/joseaaugusto">
+                     <i class="fab fa-behance-square fa-2x"></i>
+                 </a>
+                  <br><br> 
+           © 2020 José Augusto Melo | Created by <a href="http://jaugustodesign.com.br" target="_blank">J.Augusto Design Office</a>. Or seja, by myself.
+       </footer>         
+
+        </header>         
+    </body>
+</html>
